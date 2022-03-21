@@ -1,0 +1,151 @@
+2. ders notlari (19.03.22)
+
+rc02_jsx_components dosyasi icin notlar :
+
+- vs code uzerindeki dosyayi ekranda acmak icin,
+ustune gel > saga tikla > reveal in file
+
+- terminali asagida acmak icin;
+vs code da  ustteki terminale tikla > new terminal e tikla 
+
+- yarn install veya npm install i nerede yaptigin onemli .
+
+- git bash de gitmek istedigin dosyanin yolunu yazarken , dosyanin isminin ilk bi kac harfini yazdiktan sonra tab a basarsan 
+otomatik tamamlar.
+
+- git bash i default olarak acmak icin (vs code ta)
+ustte wiew > command palette > terminal yaz > select default profile > kullanmak istedigin terminali sec
+
+- hangi dosyada isen o dosyada new terminal dersen o dosyada terminali acmak icin;
+sol alttaki carka tikla(vs code da) > settings > cwd yaz > ustte cikan (terminal integrated cwd yerine) ${fileDirname} yaz.
+
+- index.js bizim ana dosyamizdir.
+
+- yorumlari renklendirmek icin vs code uzantisi;
+better comments
+
+- genel yapi ;
+main structure image ina bak
+
+-component yapili olmasinin guzelligi ; 1 kez yazip bir cok yerde cagrilabimesidir.
+
+- bestpractice de app.js genelde butun componentlerin toplandigi yerdir.
+
+- butun componentler app.js de toplanir buradan index.js e gecer ve burdan index.html e aktarilir.
+
+-index.js e import ederken dosyalar js dosyasi ise uzanti olarak sonuna js yazilmasa da olur.
+
+-react.org yardimci site
+
+- 2 tur components ile yazilir. 
+1-function (gunumuzde en cok kullanilan bu)
+2-Class
+
+- function based;
+
+function dan sonraki yazilacak olan ism buyuk harfle baslar.
+
+degiskenler suslu parantez icine yazilir.
+
+--------------------
+
+- app.js icindeki sarmalayici bir container bulunmasi gerekiyor.
+mesela div gibi , section gibi.
+
+
+
+
+- tag isimleri yani emmetler cikmiyorsa;
+carka tikla> settings > emmet yaz > includelanguage yerine javascript yanina da javascriptreact yaz
+
+
+- componenolusturuken dosya isimlerini js veya jsx verileblir farketmez
+
+
+-function icindeki return un ;
+return ya en sonda olmali ya da parantezi componenti de kapsamali. yoksa hata verir.
+
+- jsx yazildiginda bazen dah aiyi olabliyor. eklentiler daha iyi-hizli calisiyor.
+
+
+-stillendirme;
+
+//* In JSX, Styling can be performed in various ways.
+//* 1-) Inline-Styling can be used. ( cift suslu parantez kullanilir ve property isimleri camelCase olarak ve key : "value" seklinde yaziilr.
+//* 2-) Styling can be defined as a local or global variable. ( tek suslu parantezkullanilir , cunku yapilan pStyle zaten bir objedir.
+//* 3-) Styling can be defined as external stylesheet. ( bildigimiz cs dosyasi yaparak )
+
+//! NOTES:
+//* For styling, property-value(object) structure is used.
+//* camelCase is used for property name,
+//* className is used for class definitions
+//* 3rd parties libraries like Material UI, Styled Component, Sass, Bootstrap etc.
+//* can also be used for styling
+
+------------------
+
+
+- hazir emmet function yapilari icin vs code  a;
+ES7+ React/Redux/React-Native snippets
+
+
+-app.js e otomatik import yaptirmak icin;
+function icindeki > div icindeki yere ;
+<foo (footer) yazdigin zaman otomatik olarak dosya uzantisi cikacak. ona bastigin zaman da
+yukari ya import olarak otomatik olarak ekleyecek.
+
+-----------------
+### ONEMLI ####
+
+Ornegin external bir css dosyasinda h1 tagina kirmizi renk verdik. Bu durumda h1 , p vs gibi global bir taga bir styling yapilirsa,
+bu butuuuuun h1 leri degistirir. bu nedenle spesifik olarak isim (className="paragraf1" gibi) verilmelidir.
+--------------------
+
+
+rc02_props dosyasi icin notlar :
+
+
+- img lere src verirken yol vererek yazamayiz  ./ bu sekilde.
+img nin oldugu dosyanin import edilmesi gerekiyor.
+
+ornegin:
+
+import butterfly from "./images/butterfly.webp"
+
+- componentler genelde component dosyasi olusturulur ve onun icinde hepsi toplanir.
+
+- destracturingte yapilablir.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
