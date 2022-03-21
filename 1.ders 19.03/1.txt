@@ -1,0 +1,24 @@
+-single page application
+-component base bi program
+- node js indir, 
+LTS  olan
+
+-kurduktan sonra , git baash i ac.
+-node -v yazip indirip indirmedini kontrol et.
+
+- node js ile npm de indirilmis olmali . buna da git bash a npm -v yazarak konrtol et.
+
+- npm bir paket yukleme sistemidir
+
+
+- projeni olusturmak istedigin yerde git bash i ac.
+
+npx create-react-app my-app(my-app projenin adi) (en guncel version u yuklesin ve calisirsin diye)
+
+normalde bu islem her islem her prje icin tekrar tekrar yaptirir.
+
+isim verirken capslock kullanma,bosluk , turkce karaketer kullanma.
+
+
+- npm yerine yarn da yuklemip onnlda yapilalbilir.( npm den daha hizli)
+
