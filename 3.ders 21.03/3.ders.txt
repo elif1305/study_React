@@ -1,0 +1,8 @@
+######    React  3. ders    #####
+
+
+-inline styling her zman daha baskindir.
+
+-adobe color = renk kodlariinin oldugu site
+
+- ctrl + h = bul degistir yapmak icin kutucak acar
