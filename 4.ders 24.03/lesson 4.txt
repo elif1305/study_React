@@ -1,0 +1,47 @@
+####      4. ders   #####
+
+- eventler camelCase seklinde yazilir. 
+
+- Adding events ;
+
+onClick = 'shoot() '
+
+onClick = {shoot}
+
+- componenet olustururken kapsayici div i unutma.
+
+- export default ile export  un farki ;
+default yazınca istdiğiimiz isimle import edebiliriz
+süslü parantez ile import etmek zorunda değiliz
+
+-STATE
+
+state i bir hafize olarak dusunebliriz. bir componentin hafizasi
+
+bunu bir degiskenle de sagalyabliriz , state burada bir nevi bunu saglar.
+
+stateler render fonksiyonunu otomatik calistirir boylecek sayfanin tekrar render edilmesine gerek kalmaz.
+
+state hangi componentle ilgiliysa orada tanimlarnir. (eger global degilse )
+
+
+NOT; Functionel componentler stateless olarak gecer, ama class yapida dahilidir import etmeden kullanlablir.
+
+----------------------
+
+ekrana yazdirmak icin;
+
+1- const [email, setEmail] = useState("");  //! useState i yazilan degeri yakalamak icin kullaniyoruz. bunu ekrana yazdirmak icin ise (1), devami asagida.
+
+2- <strong>Username: {formData.name}</strong> //! (2) buraya verdigimiz degiskeni {} icinde yaziyoruz.
+
+-----------------------
+
+e.preventDefault();    // sayfa submit yapildiginda sayfayi yenilemesin diye , default degeri engelliyoruz.
+
+const handleSubmit = (e) => {  // girilen degerleri back end e gondermek icin yapilan islem . biz burada alert yaptik.
+
+
+-----------------------
+
+const handleCopy = () => alert("dont copy my content"); // alert verdikten sonra bu isleme engelde olabliriz . bunun icin e.preventDefault() sizden sonraki yapılacak işlemleri yaptırmaz.

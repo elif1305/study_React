@@ -22,3 +22,136 @@ isim verirken capslock kullanma,bosluk , turkce karaketer kullanma.
 
 - npm yerine yarn da yuklemip onnlda yapilalbilir.( npm den daha hizli)
 
+
+-NODE JS kurulumuni yaptiran sonra 
+herhanngi bi yerde gitbash i ac;
+node -v yazarak kontrol et
+
+npm -v yazarak bunu da kontrol et.( node js yuklendiginde npm otomarik olarak yuklenmioluyor kstra biseye gerek yok)
+
+- npm bir paket yukleycidir.
+
+
+KENDI PROJENI OLUSTURURKEN IZLENECEK YOL :
+
+1-  herhangi bi yer de git bashi ac
+
+npx create-react-app my-app(my-app projenin adi) (en guncel version u yuklesin ve calisirsin diye)
+yaz calistir
+
+1-  ya da once dosyani olustur sonra o dosyanin icinde gitbashi ac,  npx create-react-app .   komutunu yaz.
+
+2- en son happy hacking e ulasirsan basari ile yuklendi demektir.
+
+3-projeyi yapacagin dosya icerisinde vs codu ac
+
+4- vs code terminalini ac yarn start / npm start komutuna yaz 
+
+terminali kapatmak icin ,durdurmak icin, ctrl+c ya da cop isaretine bas.
+
+NOT ; projelerimizi yapabilceigmiz 2 kutuphane var.
+1- yarn
+2- npm 
+
+npm biraz daha hizlidir. tek farklari bu . projeye birini secip onla basalmak ve hep ayni kutuphane ile devam
+etmek gerekir.
+
+
+
+
+YARN ILE PROJE OLUSTURMAK ICIN;
+
+1- herhangi bi yerde git bash i ac
+
+2- npm i -g yarn yaz  ( globale yukluyoruz)
+
+3-yarn -v yazip kontrol et 
+
+4- projeni yapacagin yerde git bashi ac.
+
+5- yarn create react-app my-app    yaz. ( buarada my-app dosyanin adi,istedigin adi projene vereblirisn)
+
+6-happy hacking i gorunce basari ile yuklendi demektir .
+
+7- git bash i kapatmadan cd my-app yazarak dosyanin icine git.
+
+8- code . diyerek vs code u ac.
+
+9- vs code da terminali ac.
+
+10- yarn start yaz
+
+
+INDIRILEN BIR PROJEDE CALISMA YAPMAK ICIN ;
+
+1- repodan clone ile bilgisayarina indirdin.
+
+2- vs code u o dosyanin icinde ac
+
+3- terminali ac 
+
+4- node_modules dosyasinin bu projenin icinde omladigini goreceksin.(node_modeules dosyasi boyutu cok yuksej 
+oldugu icin genelde projelerde yuklenmez. repolara atilirken gitignore yapilarak repoya atilmaz.
+
+5- githubtan bir dosya clonladiysak oncelikle node_modules dosyasini yuklememiz gerekir. bunun icin de 
+
+6- vscode da acik olan terminale npm install / yarn install yaz ( sadece 1 kez yapilmasi yeterli, daha sonrasinda
+sadece start yapilmasi yeterli oalcak.)
+
+7- npm start / yarn start yaz projeyi baslat
+
+
+-------------------------------
+
+
+package.json : projenin  genel bilgilerini icerir. dependicies yazan yerin altinda yuklenen programlari gorebliriz.
+ornegin sass ile calisacagiz , bunu buraya yuklememiz gerekiyor. yukledikten sonra dependicies yerinden bunu kontrol edeblirz.
+
+
+
+mesela bootsrap i manuel olarak elle oraya yazdik. daha sonrasinda bunu kullanmak icin tekrardan yarn/ npm install ve start yapilmasi gerekir.
+
+
+burada bilmemiz gereken en onemli sey , index.html dosyasidir.
+react single page bir application dir.
+yani bize brwoserdan te bir html doner.
+yapilan her sey bu dosyanin icindeki div icindeki root un icine yuklenir.
+
+
+projemize paket yukleme islemi ;
+
+terminale gel 
+
+npm i bootstrap( ex. axios ..) yaz
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
