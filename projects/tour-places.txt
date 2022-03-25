@@ -1,0 +1,50 @@
+- clone yapilan dosyada calismak icin;
+
+vs code u ac
+terminali ac
+calismak istedigin(projenin oldugu ) dosyaya git
+yarn (npm) start yaz prokjeyi baslat
+
+
+- sass in kullanimi reactta sik kullanilir
+
+- yarn add sass komutu ile sass i projeye ekliyoruz.(package.json dosyasinin icine bakip yuklanmismi kontrol et)
+
+-reackt single page applicationdir .tum icerik en son tek bir sayfadan derleniyor.
+
+-terminali kapatirsan veya silersen tekrardan yarn(npm)start komutunu yazarak baslatman gerekir.
+
+- projeye baslamadan once dosyalari olustur.
+
+-google fontta font bulmak icin ;
+
+fontun ismini yaz 
+fonta tikla
+soldaki yerden @import a tikla (<link> html de kullanim icin)
+<style> in icinde yazan @import.... ile baslayan yeri kopyala
+app.scss dosyasinin icine yapistir
+
+- sarmallayici divi olusturmayi unutma
+
+- export default yazmayi unutma
+
+
+-navbar.scss dosyani navbar.js dosysina baglamayi unutma.
+yani navbar.js in icine imprt edeceksin
+
+- github ta yayinlisi ile ilgili img 10 a bak.
+
+
+1- vs code terminalinde (start yaptigmiz ana dosyada oldugnua dikkat et)
+npm i gh-pages  ya da yarn add gh-pages  yaz
+
+
+2-
+
+.
+.
+
+en son sayfai yayinlamak icin;
+
+github hesabina git > settings > asagiya dogru in > github pages a tikla > acilan sayfadan branch i gt-pages sec > save et
+
