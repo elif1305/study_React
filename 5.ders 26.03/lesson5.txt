@@ -1,0 +1,9 @@
+## 5. ders ##
+
+
+CLASS YAPILAR
+-componentelrin yasam dongusu
+1-mounting - constructor(zorunlu degil),render(zorunlu),conponentDidMount(zorunlu)
+2-updating
+3-unmounting
+
