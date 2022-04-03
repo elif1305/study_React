@@ -1,0 +1,64 @@
+## ROUTER ##
+
+-reactta mantik sayfa surekli render olmasin
+
+- Sayfalar arasi gecisi saglamak icin
+
+www.mywebsite.com/
+www.mywebsite.com/about
+www.mywebsite.com/contact
+
+-yuklu olarak gelmez, kullanmak icin ilk adim:
+
+  npm install react-router-dom
+  yarn add react-router-dom
+
+- musteri tarafindan gelen istekleri isteneilen sayfalara yonlendirmke icin,
+oncesinde her bir istek icin ayri bir html sayfasi yapilirdi.Ama artik tek bir
+page uzerinden yapiliyor.
+
+- avabtajlari:
+kullanincin her seferinde backende istek atmasi engelleniyor ve sitenin daha hizi calismanisini sagliyor.
+- dezavantaj:
+seo ile ilgili
+
+
+- componenteri;
+BrowserRouter
+Link (sayfalata yonelrdirmek icin)
+Route ( * ikonu ile notfound sayfasi gosterilebir)
+
+
+- Dynamic Route
+gelen id ye gore yonlendirme yapilmasi
+"useParams" ile gosterilir
+
+-Router Hooks
+useNavigate : ornegin bi butona tilandigi zaman baska bir sayfaya yonlendirmk istiyorsak bunun ile yapacagiz
+let ile tanimlayarak yapilir
+
+-useParam : bir sayfaya gittigimizde degisken varsa, dom dan bunun ile cekiyoruz.
+-useLocation : pathnamei tamamlaamak istiyorsak. cok kullanilmaz digerlerine gore.
+
+NOT: Herhangi bir hata ile karsilastiginda bu hatayi google dan bul.
+
+
+link ile NavLink farki:
+
+navlinkte ozellik verebliyoruz. mesela aktifse style i su olsun gibi.
+
+
+NOT: bir islemi link ile yapabliyorsan NavLink ile yapmana gerek yok. luks kullanim olur.
+
+
+- path e "*" tanimlamasi yapilmasi demek; butun url leri dolan bulamazsan bu sayfayi goster demek , yani NotFound sayfasi icin kullanilir.
+
+
+
+NOT: REACT ROUTER DOM DYNAMIC ROUTING yazarak bir cok seyin nasil yapildigina internetten bakablirisn.
+
+
+- bir icon u svg olarak heroicans.com dan aldin, google a svg to react component yaz ceviriciden cevir
+icon1.js olarak bir js sayfasi ac, cevirdigini oraya kopyala. kopyaladiktan sonra bir div icine alip style vereblirsin
+
+
