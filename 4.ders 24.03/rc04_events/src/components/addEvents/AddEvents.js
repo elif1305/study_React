@@ -9,7 +9,9 @@ const AddEvents = () => {
   return (
     <div>
       {/* <button onClick={shoot}>Take the shoot</button> */}  
-      <button onClick={(e) => shoot(e, "Jane")}>Take the shoot</button>
+      {/* <button onClick={() => shoot()}>Take the shoot</button> */}  
+      <button onClick={(e) => shoot(e, "Jane")}>Take the shoot</button>   
+      {/* parametre gondermek isterdigimizde arrow function olarakta kullanabliriz  */}
     </div>
   );
 };

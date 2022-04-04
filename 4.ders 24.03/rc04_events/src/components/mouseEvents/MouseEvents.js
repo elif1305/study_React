@@ -21,7 +21,7 @@ const MouseEvents = () => {
   const handleMouseMove = (e) => {
     // console.log(e.nativeEvent.offsetX);
     // console.log(e.pageX);
-    setCoordX(e.pageX);  // yukaridaki useState ile degerler guncellenor, set edilmesini amaci ise dgerler guncellendikce bu degerleri ekrana gonderir.
+    setCoordX(e.pageX);  // yukaridaki useState ile degerler guncellenor, set edilmesini amaci ise  dgerler guncellendikce bu degerleri ekrana gonderir.
     setCoordY(e.pageY);
   };
   return (
